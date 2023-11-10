@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongodb_1 = require("mongodb");
-const uri = "mongodb://admin:admin@127.0.0.1:27017/salaCinema";
+const uri = "mongodb://admin:admin@127.0.0.1:27017/devweb2";
 const getMongoConn = () => __awaiter(void 0, void 0, void 0, function* () {
     const client = new mongodb_1.MongoClient(uri);
     const conn = yield client.connect();

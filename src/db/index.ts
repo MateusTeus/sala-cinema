@@ -1,6 +1,6 @@
 import { MongoClient } from "mongodb";
 
-const uri = "mongodb://admin:admin@127.0.0.1:27017/salaCinema";
+const uri = "mongodb://admin:admin@127.0.0.1:27017/devweb2";
 
 
 const getMongoConn = async (): Promise<MongoClient> => {

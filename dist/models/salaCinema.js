@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-class salaCinema {
-    constructor(numeroSala, capacidade, tipoSala, andar, classificacaoEtaria, acessibilidade, legenda, idiomaLegenda, dublagem, idiomaDublagem, assentosCadeirantes, tipoTela, tamanhoTela, reservas) {
+class SalaCinema {
+    constructor(numeroSala, capacidade, tipoSala, andar, classificacaoEtaria, acessibilidade, legenda, idiomaLegenda, dublagem, idiomaDublagem, assentosCadeirantes, tipoTela, tamanhoTela, reservas, letrasFileira, numerosAssento, nomeFilme, cadeirasEspeciais, dataReserva) {
         this.numeroSala = numeroSala;
         this.capacidade = capacidade;
         this.tipoSala = tipoSala;
@@ -16,6 +16,11 @@ class salaCinema {
         this.tipoTela = tipoTela;
         this.tamanhoTela = tamanhoTela;
         this.reservas = reservas;
+        this.letrasFileira = letrasFileira;
+        this.numerosAssento = numerosAssento;
+        this.nomeFilme = nomeFilme;
+        this.cadeirasEspeciais = cadeirasEspeciais;
+        this.dataReserva = dataReserva;
     }
 }
-exports.default = salaCinema;
+exports.default = SalaCinema;
